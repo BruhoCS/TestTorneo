@@ -28,7 +28,7 @@ public abstract class Participante {
      * @param nombre
      */
     protected Participante(int id, String nombre) {
-        if (id == 0) {
+        if (id <= 0) {
             throw new IllegalArgumentException("El identificador debe ser positivo");
         }
         if (nombre == null ) {

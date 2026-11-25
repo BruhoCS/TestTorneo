@@ -1,6 +1,6 @@
 package pps.ud1.torneo;
 
-public enum TipoTorneo {
+public enum CategoriaJuego {
     INDIVIDUAL,
     EQUIPOS
 }
